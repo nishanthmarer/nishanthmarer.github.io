@@ -1,26 +1,28 @@
 ---
+
 layout: about
 title: about
 permalink: /
 subtitle: Research Assistant, Embedded Systems Laboratory, Northeastern University
-          
 
 profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Boston, MA, USA</p>
+align: right
+image: prof_pic.jpg
+image_circular: false # crops the image to make it circular
+more_info: >
+
+<p>Boston, MA, USA</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+enabled: true # includes a list of news items
+scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+limit: 5 # leave blank to include all the news in the `_news` folder
 
 # About Me
+
 I am currently a Research Assistant in the Embedded System Laboratory at Northeastern University, working under the guidance of Prof. Gunar Schirner. I hold a Master of Science in Electrical and Computer Engineering from Northeastern University, where my thesis focused on real-world deployable radio-frequency machine learning for modulation recognition.
 
 My research centers on assessing vision models stability on analog processors through digital twin development and improving automatic modulation recognition systems. This work includes optimizing algorithms for realistic deployment scenarios and implementing high-performance inference solutions on embedded platforms like NVIDIA Jetson Orin.
