@@ -382,14 +382,14 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-accepted-into-northeastern-university-s-ms-ece-program-thesis-track",
+    },{id: "news-accepted-into-northeastern-university-s-ms-ece-program-thesis-track",
           title: 'Accepted into Northeastern University’s MS ECE Program (Thesis-track) 🎉.',
           description: "",
           section: "News",},{id: "news-i-got-accepted-to-join-embedded-systems-laboratory-at-northeastern-university-as-a-research-assistant",
           title: 'I got accepted to join Embedded Systems Laboratory at Northeastern University as a...',
+          description: "",
+          section: "News",},{id: "news-submitted-my-first-co-author-paper-on-radio-frequency-machine-learning-to-spie-proceedings",
+          title: '✅ Submitted my first co-author paper on Radio Frequency Machine Learning to SPIE...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
