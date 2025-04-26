@@ -13,6 +13,9 @@ announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
+
+publications: true # shows all publications
+social: true # includes social icons at the bottom of the page
 ---
 
 I am currently a Research Assistant in the [Embedded System Laboratory](https://www.nuesl.org/) at Northeastern University, working under the guidance of Prof. Gunar Schirner. I hold a Master of Science in Electrical and Computer Engineering from Northeastern University, where my thesis focused on real-world deployable radio-frequency machine learning for modulation recognition.
