@@ -30,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
         },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
@@ -45,7 +38,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2024/12/04/photo-gallery.html";
+          window.location.href = "/blog/2024/photo-gallery/";
         
       },
     },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
@@ -67,7 +60,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2024/05/01/tabs.html";
+          window.location.href = "/blog/2024/tabs/";
         
       },
     },{id: "post-a-post-with-typograms",
@@ -78,7 +71,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2024/04/29/typograms.html";
+          window.location.href = "/blog/2024/typograms/";
         
       },
     },{id: "post-a-post-that-can-be-cited",
@@ -89,7 +82,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2024/04/28/post-citation.html";
+          window.location.href = "/blog/2024/post-citation/";
         
       },
     },{id: "post-a-post-with-pseudo-code",
@@ -100,7 +93,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2024/04/15/pseudocode.html";
+          window.location.href = "/blog/2024/pseudocode/";
         
       },
     },{id: "post-a-post-with-code-diff",
@@ -111,7 +104,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2024/01/27/code-diff.html";
+          window.location.href = "/blog/2024/code-diff/";
         
       },
     },{id: "post-a-post-with-advanced-image-components",
@@ -122,7 +115,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2024/01/27/advanced-images.html";
+          window.location.href = "/blog/2024/advanced-images/";
         
       },
     },{id: "post-a-post-with-vega-lite",
@@ -133,7 +126,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2024/01/27/vega-lite.html";
+          window.location.href = "/blog/2024/vega-lite/";
         
       },
     },{id: "post-a-post-with-geojson",
@@ -144,7 +137,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2024/01/26/geojson-map.html";
+          window.location.href = "/blog/2024/geojson-map/";
         
       },
     },{id: "post-a-post-with-echarts",
@@ -155,7 +148,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2024/01/26/echarts.html";
+          window.location.href = "/blog/2024/echarts/";
         
       },
     },{id: "post-a-post-with-chart-js",
@@ -166,7 +159,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2024/01/26/chartjs.html";
+          window.location.href = "/blog/2024/chartjs/";
         
       },
     },{id: "post-a-post-with-tikzjax",
@@ -177,7 +170,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2023/12/12/tikzjax.html";
+          window.location.href = "/blog/2023/tikzjax/";
         
       },
     },{id: "post-a-post-with-bibliography",
@@ -188,7 +181,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2023/07/12/post-bibliography.html";
+          window.location.href = "/blog/2023/post-bibliography/";
         
       },
     },{id: "post-a-post-with-jupyter-notebook",
@@ -199,7 +192,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2023/07/04/jupyter-notebook.html";
+          window.location.href = "/blog/2023/jupyter-notebook/";
         
       },
     },{id: "post-a-post-with-custom-blockquotes",
@@ -210,7 +203,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2023/05/12/custom-blockquotes.html";
+          window.location.href = "/blog/2023/custom-blockquotes/";
         
       },
     },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
@@ -221,7 +214,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2023/04/25/sidebar-table-of-contents.html";
+          window.location.href = "/blog/2023/sidebar-table-of-contents/";
         
       },
     },{id: "post-a-post-with-audios",
@@ -232,7 +225,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2023/04/25/audios.html";
+          window.location.href = "/blog/2023/audios/";
         
       },
     },{id: "post-a-post-with-videos",
@@ -243,7 +236,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2023/04/24/videos.html";
+          window.location.href = "/blog/2023/videos/";
         
       },
     },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
@@ -254,7 +247,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2023/03/20/tables.html";
+          window.location.href = "/blog/2023/tables/";
         
       },
     },{id: "post-a-post-with-table-of-contents",
@@ -265,7 +258,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2023/03/20/table-of-contents.html";
+          window.location.href = "/blog/2023/table-of-contents/";
         
       },
     },{id: "post-a-post-with-giscus-comments",
@@ -276,7 +269,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/external-services/2022/12/10/giscus-comments.html";
+          window.location.href = "/blog/2022/giscus-comments/";
         
       },
     },{id: "post-displaying-external-posts-on-your-al-folio-blog",
@@ -309,7 +302,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/2021/07/04/diagrams.html";
+          window.location.href = "/blog/2021/diagrams/";
         
       },
     },{id: "post-a-distill-style-blog-post",
@@ -320,7 +313,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/2021/05/22/distill.html";
+          window.location.href = "/blog/2021/distill/";
         
       },
     },{id: "post-a-post-with-twitter",
@@ -331,7 +324,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/external-services/2020/09/28/twitter.html";
+          window.location.href = "/blog/2020/twitter/";
         
       },
     },{id: "post-a-post-with-disqus-comments",
@@ -342,7 +335,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/external-services/2015/10/20/disqus-comments.html";
+          window.location.href = "/blog/2015/disqus-comments/";
         
       },
     },{id: "post-a-post-with-math",
@@ -353,7 +346,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2015/10/20/math.html";
+          window.location.href = "/blog/2015/math/";
         
       },
     },{id: "post-a-post-with-code",
@@ -364,7 +357,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2015/07/15/code.html";
+          window.location.href = "/blog/2015/code/";
         
       },
     },{id: "post-a-post-with-images",
@@ -375,7 +368,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2015/05/15/images.html";
+          window.location.href = "/blog/2015/images/";
         
       },
     },{id: "post-a-post-with-formatting-and-links",
@@ -386,7 +379,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/sample-posts/2015/03/15/formatting-and-links.html";
+          window.location.href = "/blog/2015/formatting-and-links/";
         
       },
     },{id: "news-a-simple-inline-announcement",
@@ -446,29 +439,38 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
-      id: 'light-theme',
-      title: 'Change theme to light',
-      description: 'Change the theme of the site to Light',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("light");
-      },
-    },
-    {
-      id: 'dark-theme',
-      title: 'Change theme to dark',
-      description: 'Change the theme of the site to Dark',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("dark");
-      },
-    },
-    {
-      id: 'system-theme',
-      title: 'Use system default theme',
-      description: 'Change the theme of the site to System Default',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("system");
-      },
-    },];
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-inspire',
+        title: 'Inspire HEP',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://inspirehep.net/authors/1010907", "_blank");
+        },
+      },{
+        id: 'social-rss',
+        title: 'RSS Feed',
+        section: 'Socials',
+        handler: () => {
+          window.open("/feed.xml", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-custom_social',
+        title: 'Custom_social',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.alberteinstein.com/", "_blank");
+        },
+      },];
