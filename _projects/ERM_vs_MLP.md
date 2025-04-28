@@ -27,3 +27,15 @@ Our goal was to see if an artificial neural network could approach the Empirical
     <strong>Left:</strong> Confusion Matrix depicting the classification performance of the ERM.  
     <strong>Right:</strong> Empirical Probability of Error comparing the ERM and MLP models.
 </div>
+
+{% raw %}
+<div style="text-align: center; margin-top: 2rem; margin-bottom: 2rem;">
+    <iframe src="/assets/files/ERM_vs_MLP_Presentation.pdf" width="720" height="480" style="border: 1px solid #ccc; border-radius: 8px;">
+        This browser does not support PDFs. Please download the PDF to view it: 
+        <a href="/assets/files/ERM_vs_MLP_Presentation.pdf">Download PDF</a>.
+    </iframe>
+    <div class="caption">
+        <strong>Presentation:</strong> Empirical Risk Minimization vs. Multi-Layer Perceptron
+    </div>
+</div>
+{% endraw %}
