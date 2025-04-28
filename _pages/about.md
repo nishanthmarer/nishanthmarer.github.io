@@ -20,10 +20,15 @@ social: true # includes social icons at the bottom of the page
 
 I am currently a Research Assistant in the [Embedded System Laboratory](https://www.nuesl.org/) at Northeastern University, working under the guidance of Prof. Gunar Schirner. I hold a Master of Science in Electrical and Computer Engineering from Northeastern University, where my thesis focused on real-world deployable radio-frequency machine learning for modulation recognition.
 
-My research centers on assessing vision models stability on analog processors through digital twin development and improving automatic modulation recognition systems. This work includes optimizing algorithms for realistic deployment scenarios and implementing high-performance inference solutions on embedded platforms like NVIDIA Jetson Orin.
+## Areas of Expertise
+* **Digital Twin Development** for analog processors to assess ML model stability
+* **Deep Learning** frameworks including PyTorch and TensorFlow with distributed training pipelines
+* **Edge Device Optimization** for high-performance inference on embedded platforms
+* **Algorithm Design** for communications systems and terrain-augmented channel models
+* **Software Engineering** with experience in C/C++, Python, and design pattern methodologies
 
-My research contributions have led to publications in respected venues including Proceedings of SPIE and MDPI IoT, where I've co-authored papers on terrain-augmented channel models and transformer-based approaches for communication systems.
+My work has been published in respected venues including Proceedings of SPIE and MDPI IoT as a co-author on papers addressing terrain-augmented channel models and transformer-based approaches for communication systems. Prior to my academic research, I worked as a Senior Software Engineer at Siemens, where I filed a patent for an algorithm to optimize numerical solvers and mentored interns.
 
-Prior to my academic research, I worked as a Senior Software Engineer at Siemens in Bengaluru, where I filed a patent and invention disclosure for an algorithm to optimize numerical solvers' performance. During my time at Siemens, I mentored interns and contributed to projects that earned recognition, including five STAR Performer awards.
+I bring a unique blend of research expertise and practical implementation ability to technical challenges. My background combines academic research with software engineering experience, offering a valuable perspective on translating advanced concepts into effective solutions. 
 
-I am well-positioned to bring my expertise in deep learning, software engineering, and embedded systems optimization to innovative technical environments. My background combines research excellence with practical implementation skills, offering a valuable perspective on translating advanced concepts into effective solutions. I am currently open to new opportunities where I can apply my technical expertise to solve challenging problems in industry.
+I am currently open to new opportunities to apply my expertise in machine learning and embedded systems in innovative industry settings. Feel free to reach out to me via email or LinkedIn.
