@@ -27,7 +27,3 @@ Our goal was to see if an artificial neural network could approach the Empirical
     <strong>Left:</strong> Confusion Matrix depicting the classification performance of the ERM.  
     <strong>Right:</strong> Empirical Probability of Error comparing the ERM and MLP models.
 </div>
-
-
-
-{% endraw %}
