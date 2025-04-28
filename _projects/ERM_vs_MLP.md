@@ -15,7 +15,6 @@ Specifically, we started with the preprocessed generated from this github reposi
 
 Our goal was to see if an artificial neural network could approach the Empirical Risk Minimization (ERM) estimate for this data to predict the outcome of each game.
 
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/CM_ERM.png" title="Confusion Matrix" class="img-fluid rounded z-depth-1" %}
@@ -30,6 +29,7 @@ Our goal was to see if an artificial neural network could approach the Empirical
 </div>
 
 {% raw %}
+
 <div style="text-align: center; margin-top: 2rem; margin-bottom: 2rem;">
     <iframe src="assets/files/ERM_vs_MLP_Presentation.pdf" width="720" height="480" style="border: 1px solid #ccc; border-radius: 8px;">
         This browser does not support PDFs. Please download the PDF to view it: 
