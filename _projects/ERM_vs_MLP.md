@@ -31,9 +31,9 @@ Our goal was to see if an artificial neural network could approach the Empirical
 {% raw %}
 
 <div style="text-align: center; margin-top: 2rem; margin-bottom: 2rem;">
-    <iframe src="assets/files/ERM_vs_MLP_Presentation.pdf" width="720" height="480" style="border: 1px solid #ccc; border-radius: 8px;">
+    <iframe src="assets/files/ERMvsMLP.pdf" width="720" height="480" style="border: 1px solid #ccc; border-radius: 8px;">
         This browser does not support PDFs. Please download the PDF to view it: 
-        <a href="assets/files/ERM_vs_MLP_Presentation.pdf">Download PDF</a>.
+        <a href="assets/files/ERMvsMLP.pdf">Download PDF</a>.
     </iframe>
     <div class="caption">
         <strong>Presentation:</strong> Empirical Risk Minimization vs. Multi-Layer Perceptron
