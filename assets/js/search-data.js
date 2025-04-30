@@ -394,12 +394,7 @@ ninja.data = [{
           section: "News",},{id: "news-successfully-defended-my-ms-thesis-on-deployable-radio-frequency-machine-learning-for-modulation-recognition",
           title: '✅ Successfully Defended my MS Thesis on Deployable Radio-Frequency Machine Learning for Modulation...',
           description: "",
-          section: "News",},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
+          section: "News",},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
@@ -439,4 +434,9 @@ ninja.data = [{
           description: "Quantitative performance benchmarking between statistical and neural approaches",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ERM_vs_MLP/";
+            },},{id: "projects-shallow-net",
+          title: 'Shallow Net',
+          description: "Shallow Convolutional Neural Network for Image Classification",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Shallow_Nets/";
             },},];
