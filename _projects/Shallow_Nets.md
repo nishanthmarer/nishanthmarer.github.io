@@ -19,7 +19,7 @@ By maintaining the feature maps from each stream, the network retains critical i
 
 The concatenated outputs, containing information from various resolutions, provide the fully connected layer with a comprehensive view of the feature patterns present in the image. This multi-resolution approach enhances the model's classification performance by leveraging diverse insights from the input data.
 
-Our research centers around implementing a custom architecture, ShallowNet, which employs multiple parallel processing streams to potentially achieve competitive performance without the extensive depth typical of conventional deep learning models.
+The research centers around implementing a custom architecture, ShallowNet, which employs multiple parallel processing streams to potentially achieve competitive performance without the extensive depth typical of conventional deep learning models.
 
 All experiments were conducted on the CIFAR10 dataset.
 
@@ -29,43 +29,105 @@ All experiments were conducted on the CIFAR10 dataset.
     </div>
 </div>
 <div class="caption">
-    The image on the left displays the architecture of our ShallowNet model, featuring three parallel processing streams with one VGG block in each stream. This design enables multi-resolution feature extraction while maintaining minimal depth.
+    The image displays the architecture of the ShallowNet model, featuring three parallel processing streams with one VGG block in each stream. This design enables multi-resolution feature extraction while maintaining minimal depth.
 </div>
 
-## Model Configuration
+### Model Configuration
 
-### Baseline Deep Layer Models
+#### Baseline Deep Layer Models
 
-| **Model Name** | **No. of Layers** | **No. of Parameters (Million)** | **Block Type** |
-| -------------- | ----------------- | ------------------------------- | -------------- |
-| VGGNet         | 7                 | 1.852                           | VGG            |
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Model Name</th>
+      <th scope="col">No. of Layers</th>
+      <th scope="col">No. of Parameters (Million)</th>
+      <th scope="col">Block Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>VGGNet</td>
+      <td>7</td>
+      <td>1.852</td>
+      <td>VGG</td>
+    </tr>
+    <tr>
+      <td>ResNet9</td>
+      <td>9</td>
+      <td>6.575</td>
+      <td>ResNet</td>
+    </tr>
+  </tbody>
+</table>
+<div class="caption">
+    Table 1: Baseline Deep Layer Models
+</div>
 
-\*Table 1: Baseline Deep Layer Models\_
+#### Shallow Net Model Configuration
 
-### Shallow Net Model Configuration
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Model Name</th>
+      <th scope="col">No. of Streams</th>
+      <th scope="col">No. of Blocks in each Stream</th>
+      <th scope="col">No. of Parameters (Million)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ShallowModel 3Streams 1Block</td>
+      <td>3</td>
+      <td>1</td>
+      <td>1.345</td>
+    </tr>
+  </tbody>
+</table>
+<div class="caption">
+    Table 2: Variations of Shallow Net Models
+</div>
 
-| **Model Name**               | **No. of Streams** | **No. of Blocks in each Stream** | **No. of Parameters (Million)** |
-| ---------------------------- | ------------------ | -------------------------------- | ------------------------------- |
-| ShallowModel 3Streams 1Block | 3                  | 1                                | 1.345                           |
+### Results
 
-\*Table 2: Variations of Shallow Net Models\_
+#### Baseline Model Performance
 
-## Results
-
-### Baseline Model Performance
-
-| **Model Name** | **Testing Accuracy (in Percentage)** |
-| -------------- | ------------------------------------ |
-| VGGNet         | 88.2                                 |
-
-\*Table 1: Baseline Model's Testing Accuracy Figures\_
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Model Name</th>
+      <th scope="col">Testing Accuracy (in Percentage)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>VGGNet</td>
+      <td>88.2</td>
+    </tr>
+  </tbody>
+</table>
+<div class="caption">
+    Table 3: Baseline Model's Testing Accuracy Figures
+</div>
 
 Examining the testing accuracy figures for the Shallow Net with VGG Block as their basic block.
 
-### Shallow Net Model Performance
+#### Shallow Net Model Performance
 
-| **Model Name**                   | **Testing Accuracy (in Percentage)** |
-| -------------------------------- | ------------------------------------ |
-| **ShallowModel 3Streams 1Block** | **89.53**                            |
-
-\*Table 2: Shallow Net Model's Testing Accuracy Figures\_
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Model Name</th>
+      <th scope="col">Testing Accuracy (in Percentage)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>ShallowModel 3Streams 1Block</strong></td>
+      <td><strong>89.53</strong></td>
+    </tr>
+  </tbody>
+</table>
+<div class="caption">
+    Table 4: Shallow Net Model's Testing Accuracy Figures
+</div>
