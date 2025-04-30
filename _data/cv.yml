@@ -3,91 +3,89 @@
   contents:
     - name: Full Name
       value: Nishanth Marer Prabhu
+    - name: Email
+      value: nishanth.marerprabhu@gmail.com
 
 - title: Education
   type: time_table
   contents:
-    - title: MSc
-      institution: Northeastern University, Boston, MA, USA
+    - title: Master of Science in Electrical and Computer Engineering
+      institution: Northeastern University, Boston, MA
       year: 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Specialization in Machine Learning (GPA - 4/4)
+        - Relevant Courses - Advances in Deep Learning, Hardware/Software Optimization, Parallel Processing for Data Analytics
+    - title: Bachelor of Engineering in Electronics and Communication Engineering
+      institution: BNM Institute of Technology, Bengaluru, India
+      year: 2019
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: Embedded System Laboratory, Northeastern University, Boston, USA
+      year: 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Digital Twin Development for Analog Processors
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Developed custom noise modeling layers for self-attention, convolution, and linear modules
+            - Achieved 90% of baseline accuracy under simulated analog noise conditions
+        - title: Real-Time Automatic Modulation Recognition with TensorRT
+          contents:
+            - Converted PyTorch models to TensorRT for real-time inference on NVIDIA Jetson Orin
+            - Achieved 7x and 13x inference speedups for Vision Transformer and CNN models
+        - title: Terrain Augmented Channel Model for Automatic Modulation Recognition
+          contents:
+            - Designed custom load-balancing algorithm for receiver positioning on terrain maps
+            - Optimized code via profiling, cutting execution latency from 4ms to 950µs
+    - title: Senior Software Engineer
+      institution: Siemens, Bengaluru, India
+      year: 2019 - 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Filed a Patent and Invention Disclosure for a Proximity Search-Based Algorithm to optimize numerical solvers' performance
+        - Implemented ML techniques like KNN and Graph NN to enhance convergence rate
+        - Mentored interns and led development projects using C++, C#, and MySQL
+        - Designed applications utilizing Design Pattern methodology for better logic flow
+        - Built an OS deployment tool on Jenkins for parallel reinstallation, reducing setup time from over 1 hour to 20 minutes
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Publications
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: "Towards Real-World Deployable Radio-Frequency Machine Learning for Modulation Recognition"
+      institution: MS Thesis, Northeastern University
+      year: 2024
+    - title: "Utilizing Terrain-Generation to Derive Realistic Channel Models for Automatic Modulation Recognition"
+      institution: Proc. SPIE 13035, Synthetic Data for AI and ML
+      year: 2024
+    - title: "Enhancing Automatic Modulation Recognition for IoT Applications Using Transformers"
+      institution: MDPI, IoT
+      year: 2024
 
-- title: Honors and Awards
+- title: Projects
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Shallow Convolutional Neural Network for Image Classification
+      year: 2024
+      description: Achieved 89.5% accuracy on CIFAR-10 with only 1.3M parameters using a custom parallel stream CNN architecture
+    - title: Parallelization of Genetic Algorithms for Optimal Feature Selection
+      year: 2023
+      description: Boosted feature selection speed by 2x - 25x using PySpark, Joblib, and distributed computing techniques
+    - title: Medically Informed Stable Diffusion
+      year: 2023
+      description: Generated anonymized, clinical brain scans using Stable Diffusion, Control Net and LLM prompt engineering
 
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming Languages
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - C/C++, Python, SystemC, PowerShell, Perl, C++ (with Qt), SPARQL, C#, MySQL, Java, MATLAB, HTML
+    - title: Frameworks & Tools
       items:
-        - Description 1.
-        - Description 2.
+        - PyTorch, TensorFlow, PyTorch Lightning, PySpark, Joblib, ONNX, TensorRT, scikit-learn, XGBoost
+        - NVIDIA Jetson Orin, Docker, Linux, Jenkins, AWS (EC2, S3), Git, CUDA, NVIDIA Nsight Compute, TensorBoard
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Teaching, Technology Exploration
