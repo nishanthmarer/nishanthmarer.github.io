@@ -76,15 +76,6 @@
       "endDate": "2019-05-01"
     }
   ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
   "publications": [
     {
       "name": "Towards Real-World Deployable Radio-Frequency Machine Learning for Modulation Recognition",
@@ -106,6 +97,19 @@
       "releaseDate": "2024-06-01",
       "website": "https://www.mdpi.com/2624-831X/5/2/11",
       "summary": "Vol. 5, Art. no. 2"
+    }
+  ],
+  "awards": [
+    {
+      "title": "AI/ML Hackathon at Siemens Global",
+      "date": "2021-08-01",
+      "awarder": "Siemens Senior Software Architects (SSWA)",
+      "summary": "Global Award of 2nd place for demonstrating the idea of using ML algorithms to aid the performance of numerical solvers"
+    },
+    {
+      "title": "STAR Performer Award",
+      "awarder": "Siemens India",
+      "summary": "5 Time Winner of STAR Performer Award for exceeding expectation"
     }
   ],
   "skills": [
