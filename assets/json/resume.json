@@ -21,7 +21,9 @@
         "username": "nishanthmarer",
         "url": "https://github.com/nishanthmarer"
       }
-    ]
+    ],
+    "phone": "",
+    "image": ""
   },
   "work": [
     {
@@ -60,20 +62,21 @@
       "studyType": "Master of Science",
       "startDate": "2023-01-01",
       "endDate": "2024-12-20",
-      "gpa": "4.0",
       "courses": [
         "Advances in Deep Learning",
         "Hardware/Software Co-design",
         "Parallel Processing for Data Analytics",
         "Computer Vision"
-      ]
+      ],
+      "score": "4.0"
     },
     {
       "institution": "BNM Institute of Technology",
       "area": "Electronics and Communication Engineering",
       "studyType": "Bachelor of Engineering",
       "startDate": "2015-08-01",
-      "endDate": "2019-05-01"
+      "endDate": "2019-05-01",
+      "location": ""
     }
   ],
   "publications": [
@@ -172,7 +175,7 @@
       "name": "Parallelization of Genetic Algorithms for Optimal Feature Selection",
       "startDate": "2023-10-01",
       "endDate": "2023-12-01",
-      "summary": "Boosted feature selection speed by 2x–25x using parallel computing techniques.",
+      "summary": "Boosted feature selection speed by 2x\u201325x using parallel computing techniques.",
       "url": "https://github.com/nishanthmarer/Genetic_Algorithm_Parallelize"
     },
     {
@@ -188,5 +191,10 @@
       "summary": "Evaluate ERM and optimize MLP predictions for NFL games, enhancing model accuracy.",
       "url": "https://github.com/nishanthmarer/ITMLPRFinalProjectAlex_Nishanth"
     }
-  ]
+  ],
+  "volunteer": [],
+  "certificates": [],
+  "languages": [],
+  "interests": [],
+  "references": []
 }
