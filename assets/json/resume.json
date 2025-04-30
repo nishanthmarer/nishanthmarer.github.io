@@ -172,7 +172,7 @@
       "name": "Parallelization of Genetic Algorithms for Optimal Feature Selection",
       "startDate": "2023-10-01",
       "endDate": "2023-12-01",
-      "summary": "Boosted feature selection speed by 2x–25x using parallel computing techniques.",
+      "summary": "Boosted feature selection speed by 2x - 25x using parallel computing techniques.",
       "url": "https://github.com/nishanthmarer/Genetic_Algorithm_Parallelize"
     },
     {
