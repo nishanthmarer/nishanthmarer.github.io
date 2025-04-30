@@ -57,7 +57,7 @@
   "education": [
     {
       "institution": "Northeastern University",
-      "location": "Boston, United States of America",
+      "location": "Massachusetts, United States of America",
       "area": "Electrical and Computer Engineering",
       "studyType": "Master of Science",
       "startDate": "2023-01-01",
@@ -70,8 +70,7 @@
       "area": "Electronics and Communication Engineering",
       "studyType": "Bachelor of Engineering",
       "startDate": "2015-08-01",
-      "endDate": "2019-05-01",
-      "location": ""
+      "endDate": "2019-05-01"
     }
   ],
   "publications": [
