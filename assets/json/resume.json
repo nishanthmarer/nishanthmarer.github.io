@@ -81,21 +81,21 @@
       "name": "Towards Real-World Deployable Radio-Frequency Machine Learning for Modulation Recognition",
       "publisher": "Northeastern University",
       "releaseDate": "2024-12-14",
-      "website": "https://hdl.handle.net/2047/D20705218",
+      "url": "https://hdl.handle.net/2047/D20705218",
       "summary": "MS Thesis"
     },
     {
       "name": "Utilizing Terrain-Generation to Derive Realistic Channel Models for Automatic Modulation Recognition",
       "publisher": "Proc. SPIE",
       "releaseDate": "2024-06-07",
-      "website": "10.1117/12.3013507",
+      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13035/130351B/Utilizing-terrain-generation-to-derive-realistic-channel-models-for-automatic/10.1117/12.3013507.short",
       "summary": "Synthetic Data for Artificial Intelligence and Machine Learning: Tools, Techniques, and Applications II"
     },
     {
       "name": "Enhancing Automatic Modulation Recognition for IoT Applications Using Transformers",
       "publisher": "MDPI, IoT",
       "releaseDate": "2024-06-01",
-      "website": "https://www.mdpi.com/2624-831X/5/2/11",
+      "url": "https://www.mdpi.com/2624-831X/5/2/11",
       "summary": "Vol. 5, Art. no. 2"
     }
   ],
@@ -172,7 +172,7 @@
       "name": "Parallelization of Genetic Algorithms for Optimal Feature Selection",
       "startDate": "2023-10-01",
       "endDate": "2023-12-01",
-      "summary": "Boosted feature selection speed by 2x - 25x using parallel computing techniques.",
+      "summary": "Boosted feature selection speed by 2x–25x using parallel computing techniques.",
       "url": "https://github.com/nishanthmarer/Genetic_Algorithm_Parallelize"
     },
     {
