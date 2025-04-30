@@ -17,6 +17,10 @@ We empirically show that process-based Parallelism speeds up the Genetic Algorit
         {% include figure.liquid loading="eager" path="assets/img/parallelvsseq.png" title="Advantage in Time Consumption because of Parallelis" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    <strong>Left:</strong> General Genetic Algorithm Flow Diagram.  
+    <strong>Right:</strong> Advantage in Time Consumption because of Parallelis. Figure only applies to one Evolution Round.
+</div>
 
 {% raw %}
 
