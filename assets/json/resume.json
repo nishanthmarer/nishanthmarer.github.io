@@ -62,12 +62,7 @@
       "studyType": "Master of Science",
       "startDate": "2023-01-01",
       "endDate": "2024-12-20",
-      "courses": [
-        "Advances in Deep Learning",
-        "Hardware/Software Co-design",
-        "Parallel Processing for Data Analytics",
-        "Computer Vision"
-      ],
+      "courses": ["Advances in Deep Learning", "Hardware/Software Co-design", "Parallel Processing for Data Analytics", "Computer Vision"],
       "score": "4.0"
     },
     {
@@ -118,49 +113,15 @@
   "skills": [
     {
       "name": "Programming Languages",
-      "keywords": [
-        "C/C++",
-        "Python",
-        "SystemC",
-        "PowerShell",
-        "Perl",
-        "C++ (with Qt)",
-        "SPARQL",
-        "C#",
-        "MySQL",
-        "Java",
-        "MATLAB",
-        "HTML"
-      ]
+      "keywords": ["C/C++", "Python", "SystemC", "PowerShell", "Perl", "C++ (with Qt)", "SPARQL", "C#", "MySQL", "Java", "MATLAB", "HTML"]
     },
     {
       "name": "Frameworks",
-      "keywords": [
-        "Design Patterns",
-        "PyTorch",
-        "TensorFlow",
-        "PyTorch Lightning",
-        "PySpark",
-        "Joblib",
-        "ONNX",
-        "TensorRT",
-        "scikit-learn",
-        "XGBoost"
-      ]
+      "keywords": ["Design Patterns", "PyTorch", "TensorFlow", "PyTorch Lightning", "PySpark", "Joblib", "ONNX", "TensorRT", "scikit-learn", "XGBoost"]
     },
     {
       "name": "Technologies / Tools",
-      "keywords": [
-        "NVIDIA Jetson Orin",
-        "Docker",
-        "Linux",
-        "Jenkins",
-        "AWS (EC2, S3)",
-        "Git",
-        "CUDA",
-        "NVIDIA Nsight Compute",
-        "TensorBoard"
-      ]
+      "keywords": ["NVIDIA Jetson Orin", "Docker", "Linux", "Jenkins", "AWS (EC2, S3)", "Git", "CUDA", "NVIDIA Nsight Compute", "TensorBoard"]
     }
   ],
   "projects": [
