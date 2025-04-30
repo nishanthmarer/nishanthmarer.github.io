@@ -28,7 +28,7 @@ I am currently a Research Assistant in the [Embedded System Laboratory](https://
 - **Algorithm Design** for communications systems and terrain-augmented channel models
 - **Software Engineering** with experience in C/C++, Python, and design pattern methodologies
 
-My work has been published in respected venues including Proceedings of SPIE and MDPI IoT as a co-author on papers addressing terrain-augmented channel models and transformer-based approaches for communication systems. Prior to my academic research, I worked as a Senior Software Engineer at Siemens, where I filed a patent for an algorithm to optimize numerical solvers and mentored interns.
+My work has been published in respected venues including Proceedings of SPIE and MDPI IoT as a co-author on papers addressing terrain-augmented channel models and transformer-based approaches for communication systems. Prior to my academic research, I worked as a Senior Software Engineer (C++ Developer) at Siemens in the Smart Grid Infrastructure (SGI) R&D team, where I filed a patent for an ML algorithm optimizing numerical solvers and additionally mentored interns.
 
 I bring a unique blend of research expertise and practical implementation ability to technical challenges. My background combines academic research with software engineering experience, offering a valuable perspective on translating advanced concepts into effective solutions.
 
