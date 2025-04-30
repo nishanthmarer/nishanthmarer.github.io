@@ -34,7 +34,8 @@
       "highlights": [
         "Developed digital twins for analog processors",
         "Created receiver placement algorithm for terrain-augmented channel models for AMR",
-        "Optimized inference on NVIDIA Jetson platforms using TensorRT"]
+        "Optimized inference on NVIDIA Jetson platforms using TensorRT"
+      ]
     },
     {
       "name": "Siemens",
@@ -111,19 +112,47 @@
     {
       "name": "Programming Languages",
       "keywords": [
-        "C/C++", "Python", "SystemC", "PowerShell", "Perl", "C++ (with Qt)", "SPARQL", "C#", "MySQL", "Java", "MATLAB", "HTML"
+        "C/C++",
+        "Python",
+        "SystemC",
+        "PowerShell",
+        "Perl",
+        "C++ (with Qt)",
+        "SPARQL",
+        "C#",
+        "MySQL",
+        "Java",
+        "MATLAB",
+        "HTML"
       ]
     },
     {
       "name": "Frameworks",
       "keywords": [
-        "Design Patterns", "PyTorch", "TensorFlow", "PyTorch Lightning", "PySpark", "Joblib", "ONNX", "TensorRT", "scikit-learn", "XGBoost"
+        "Design Patterns",
+        "PyTorch",
+        "TensorFlow",
+        "PyTorch Lightning",
+        "PySpark",
+        "Joblib",
+        "ONNX",
+        "TensorRT",
+        "scikit-learn",
+        "XGBoost"
       ]
     },
     {
       "name": "Technologies / Tools",
       "keywords": [
-        "NVIDIA Jetson Orin", "Docker", "Linux", "Jenkins", "AWS (EC2, S3)", "Git", "CUDA", "NVIDIA Nsight Compute", "TensorBoard"
+        "NVIDIA Jetson Orin",
+        "Docker",
+        "Linux",
+        "Jenkins",
+        "AWS (EC2, S3)",
+        "Git",
+        "CUDA",
+        "NVIDIA Nsight Compute",
+        "TensorBoard"
       ]
     }
   ],
