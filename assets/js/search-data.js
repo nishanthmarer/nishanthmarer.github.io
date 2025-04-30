@@ -394,12 +394,7 @@ ninja.data = [{
           section: "News",},{id: "news-successfully-defended-my-ms-thesis-on-deployable-radio-frequency-machine-learning-for-modulation-recognition",
           title: '✅ Successfully Defended my MS Thesis on Deployable Radio-Frequency Machine Learning for Modulation...',
           description: "",
-          section: "News",},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
+          section: "News",},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
           section: "Projects",handler: () => {
@@ -434,6 +429,11 @@ ninja.data = [{
           description: "Empirically show that process-based Parallelism speeds up the Genetic Algorithm for Feature Selection",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Genetic_Algorithms/";
+            },},{id: "projects-privacy-preserving-synthetic-data-generation",
+          title: 'Privacy preserving Synthetic Data Generation',
+          description: "Medically Informed Stable Diffusion (MISD)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/MISD/";
             },},{id: "projects-shallow-net",
           title: 'Shallow Net',
           description: "Shallow Convolutional Neural Network for Image Classification",
