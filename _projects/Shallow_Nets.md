@@ -32,9 +32,9 @@ All experiments were conducted on the CIFAR10 dataset.
     The image displays the architecture of the ShallowNet model, featuring three parallel processing streams with one VGG block in each stream. This design enables multi-resolution feature extraction while maintaining minimal depth.
 </div>
 
-### Model Configuration
+##### <strong>Model Configuration</strong>
 
-#### Baseline Deep Layer Models
+###### Baseline Deep Layer Models
 
 <table class="table">
   <thead>
@@ -52,19 +52,13 @@ All experiments were conducted on the CIFAR10 dataset.
       <td>1.852</td>
       <td>VGG</td>
     </tr>
-    <tr>
-      <td>ResNet9</td>
-      <td>9</td>
-      <td>6.575</td>
-      <td>ResNet</td>
-    </tr>
   </tbody>
 </table>
 <div class="caption">
     Table 1: Baseline Deep Layer Models
 </div>
 
-#### Shallow Net Model Configuration
+###### Shallow Net Model Configuration
 
 <table class="table">
   <thead>
@@ -88,9 +82,9 @@ All experiments were conducted on the CIFAR10 dataset.
     Table 2: Variations of Shallow Net Models
 </div>
 
-### Results
+#### <strong>Results</strong>
 
-#### Baseline Model Performance
+###### Baseline Model Performance
 
 <table class="table">
   <thead>
@@ -112,7 +106,7 @@ All experiments were conducted on the CIFAR10 dataset.
 
 Examining the testing accuracy figures for the Shallow Net with VGG Block as their basic block.
 
-#### Shallow Net Model Performance
+###### Shallow Net Model Performance
 
 <table class="table">
   <thead>
